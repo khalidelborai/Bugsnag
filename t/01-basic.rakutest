@@ -1,0 +1,6 @@
+use Test;
+use Bugsnag;
+
+pass "replace me";
+
+done-testing;
