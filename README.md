@@ -1,7 +1,7 @@
 NAME
 ====
 
-Bugsnag - blah blah blah
+Bugsnag - Bugsnag SDK for Raku
 
 SYNOPSIS
 ========
@@ -13,7 +13,7 @@ use Bugsnag;
 DESCRIPTION
 ===========
 
-Bugsnag is ...
+SDK for Bugsnag 
 
 AUTHOR
 ======

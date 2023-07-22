@@ -1,25 +1,31 @@
 {
-  "auth": "zef:khalidelborai",
+  "name": "Bugsnag",
+  "description": "Bugsnag API SDK for Raku",
+  "version": "0.0.1",
+  "perl": "6.d",
   "authors": [
     "khalidelborai"
   ],
-  "build-depends": [
-  ],
+  "auth": "zef:khalidelborai",
   "depends": [
+    "Cro::HTTP"
   ],
-  "description": "blah blah blah",
-  "license": "Artistic-2.0",
-  "name": "Bugsnag",
-  "perl": "6.d",
+  "build-depends": [],
+  "test-depends": [],
   "provides": {
-    "Bugsnag": "lib/Bugsnag.rakumod"
+    "Bugsnag": "lib/Bugsnag.rakumod",
+    "Bugsnag::Organizations": "lib/Bugsnag/Organizations.rakumod"
   },
-  "resources": [
-  ],
-  "source-url": "",
+  "resources": [],
+  "license": "Artistic-2.0",
   "tags": [
+    "bugsnag",
+    "error",
+    "exception",
+    "reporting",
+    "monitoring",
+    "sdk",
+    "api"
   ],
-  "test-depends": [
-  ],
-  "version": "0.0.1"
+  "source-url": "https://github.com/khalidelborai/Bugsnag.git"
 }
